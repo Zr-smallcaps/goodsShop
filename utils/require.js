@@ -5,6 +5,7 @@ fly.config.baseURL = 'https://api-hmugo-web.itheima.net/api/public/v1'
 fly.config.timeout = 3000
 //添加请求拦截器
 fly.interceptors.request.use((request) => {
+  toast.isloading('正在加载中')
   //给所有请求添加自定义header
   request.headers["X-Tag"] = "flyio";
   //打印出请求体

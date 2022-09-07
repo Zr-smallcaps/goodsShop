@@ -35,6 +35,14 @@
     "root": "subpkg",
     "pages": [{
       "path": "goods_detail/goods_detail"
+    }, {
+      "path": "goog_list/goog_list",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 100
+      }
+
     }]
   }],
   "tabBar": {
@@ -71,7 +79,12 @@
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "小瓶盖",
     "navigationBarBackgroundColor": "#C00000",
-    "backgroundColor": "#F8F8F8"
+    "backgroundColor": "#F8F8F8",
+    "usingComponents": {
+      "van-button": "/wxcomponents/vant/button/index",
+      "van-card": "/wxcomponents/vant/card/index"
+    }
   },
-  "uniIdRouter": {}
+  "uniIdRouter": {},
+  "ignoreDevUnusedFiles": false
 }

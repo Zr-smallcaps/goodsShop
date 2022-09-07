@@ -12,4 +12,11 @@ toast.error = function(title, duration = 3000) {
     duration
   })
 }
+toast.isloading = function(title, duration = 1000) {
+  uni.showToast({
+    icon: "loading",
+    title,
+    duration
+  })
+}
 export default toast

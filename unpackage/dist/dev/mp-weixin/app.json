@@ -9,7 +9,8 @@
     {
       "root": "subpkg",
       "pages": [
-        "goods_detail/goods_detail"
+        "goods_detail/goods_detail",
+        "goog_list/goog_list"
       ]
     }
   ],
@@ -48,5 +49,9 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {
+    "van-button": "/wxcomponents/vant/button/index",
+    "van-card": "/wxcomponents/vant/card/index"
+  },
+  "sitemapLocation": "sitemap.json"
 }

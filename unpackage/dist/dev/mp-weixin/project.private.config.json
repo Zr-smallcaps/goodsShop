@@ -3,5 +3,18 @@
   "projectname": "goodsShop",
   "setting": {
     "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "商品列表",
+          "pathName": "subpkg/goog_list/goog_list",
+          "query": "query=%E6%9C%8D%E9%A5%B0",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
   }
 }
