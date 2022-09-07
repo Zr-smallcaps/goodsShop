@@ -1,6 +1,6 @@
 <template>
   <view>
-    啊啊啊啊啊啊啊
+    ssss
   </view>
 </template>
 
@@ -9,11 +9,14 @@
     data() {
       return {
 
-      };
+      }
+    },
+    methods: {
+
     }
   }
 </script>
 
-<style lang="scss">
+<style>
 
 </style>

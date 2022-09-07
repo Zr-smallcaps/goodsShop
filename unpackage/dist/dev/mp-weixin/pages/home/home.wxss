@@ -24,6 +24,14 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
+swiper {
+  height: 350rpx;
+}
+swiper .swiper-item,
+swiper image {
+  width: 100%;
+  height: 100%;
+}
 .topSearch {
   width: 750rpx;
   height: 70px;
@@ -41,5 +49,31 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+.nav-list .nav-img {
+  width: 128rpx;
+  height: 140rpx;
+}
+.floor-title {
+  height: 60rpx;
+  width: 100%;
+  display: flex;
+}
+.right-img-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.floor-img-box {
+  display: flex;
+  padding-left: 10rpx;
+}
+.floor-img-box .left-img {
+  height: 392rpx !important;
 }
 
